@@ -34,6 +34,7 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Size = new System.Drawing.Size(800, 450);
             this.MaximumSize = new System.Drawing.Size(1000, 950);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Text = "Form1";
 
 
@@ -42,6 +43,8 @@ namespace WindowsFormsApp1
                 this.BackColor = Color.BurlyWood;
                 this.Size = this.MaximumSize;
             };
+
+
         }
 
         #endregion
